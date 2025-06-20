@@ -1,4 +1,4 @@
 requests
 beautifulsoup4
-viber-bot
+viberbot
 tenacity
