@@ -1,0 +1,4 @@
+requests
+beautifulsoup4
+viber-bot
+tenacity
