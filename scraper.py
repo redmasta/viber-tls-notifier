@@ -17,8 +17,7 @@ HEADERS = {
 TLS_CONTACT_URL = "https://it.tlscontact.com/by/msq/page.php?pid=news"
 
 # --- Настройка пути для хранения данных на Render ---
-# Render Disk монтируется в /var/data
-# Если запускаем локально, используем текущую папку
+
 DATA_DIR = os.environ.get('RENDER_DISK_MOUNT_PATH', '.')
 DATA_FILE = os.path.join(DATA_DIR, "news_cache.json")
 
